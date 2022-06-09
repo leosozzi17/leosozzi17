@@ -129,7 +129,7 @@ document.getElementById("acca3").textContent = "prima della get, ma dentro il fi
 
         //console.log(message);
         var x;
-document.getElementById("acca3").textContent = "prima della get";
+
         var getMessageUrl = 'https://graph.microsoft.com/v1.0/me/messages/' + getItemRestId() + '/$value';
         document.getElementById("acca3").textContent = getMessageUrl;
 
