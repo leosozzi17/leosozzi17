@@ -40,7 +40,7 @@
             //    download((subject[0].textContent + ".eml"), values[0].textContent);
             //});
             // MSAL.js v2 exposes several account APIs, logic to determine which account to use is the responsibility of the developer
-document.getElementById("acca3").textContent = "prima della get";
+document.getElementById("acca3").textContent = "prima della get, ma dentro il file JS";
             getCurrentItem();
             //requestToken();
 
