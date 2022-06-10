@@ -76,7 +76,7 @@ document.getElementById("acca3").textContent = "dentro il file js";
             a.click();
             console.log(a);
             if (a !== undefined) {
-                document.getElementById("acca5").textContent = x;
+                document.getElementById("acca5").textContent = a;
             }
         }
         xhr.send();
